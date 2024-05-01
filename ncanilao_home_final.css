@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body {font-family: Arial, sans-serif;margin: 0;padding: 0;}
+
+header {background-color: black;color: white; padding: 10px 0;text-align: center;}
+
+.logo {float: left;}
+
+nav ul {list-style-type: none;padding: 0;}
+
+nav ul li {display: inline-block;margin-right: 20px;}
+
+nav ul li a {text-decoration: none;}
+
+h1 {color: red; text-align: center}
+h2 {text-align: center; color: red; margin-left: 800px}
+
+.featured1 {float: left; width: 100px; margin-top: 100px}
+
+.featured2 {float: right;margin-top: 100px}
+
+row {display: flex; justify-content: space-around;}
+
+.ecom {width: 200px; height: 200px;text-align: center;padding: 30px; margin-top: 1100px}
+
+.ecom p { margin-top: 0;
+}
+
+.caption {font-size: 20px;}
+
+form {display: inline-block; margin-left: 800px}
+
+p {text-indent: 10px;}
+
+a {color:white}
+
+a:visited{color: red;}
+
+footer {background-color: black;color: white ;text-align: center; padding: 10px 0;width: 1450px}

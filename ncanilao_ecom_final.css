@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {font-family: Arial, sans-serif;margin: 0;padding: 0;}
+
+header {background-color: black;color: white; padding: 10px 0;text-align: center;}
+
+.logo {float: left;}
+
+nav ul {list-style-type: none;padding: 0;}
+
+nav ul li {display: inline-block;margin-right: 20px;}
+
+nav ul li a {text-decoration: none;}
+
+
+.container {max-width: 100%%; margin: 20px auto; padding: 0 20px;}
+
+h1 {text-align: center;color: red; text-decoration: underline;}
+
+.featured1 {float: left; width: 100px; margin-top: 100px}
+
+.featured2 {float: right;margin-top: 100px}
+
+.artwork{float: left; gap: 20px;  text-align: left; margin: -1080px; margin-top: 100px }
+
+.caption {font-weight: bold;
+}
+
+
+p {text-indent: 10px;}
+
+a {color:white}
+
+a:visited{color: red;}
+
+footer {background-color: black;color: white ;text-align: center; padding: 10px 0; margin-top: 1750px; width: auto;}

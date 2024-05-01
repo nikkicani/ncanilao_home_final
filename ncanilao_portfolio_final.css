@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body {font-family: Arial, sans-serif;margin: 0;padding: 0;}
+
+header {background-color: black;color: white; padding: 10px 0;text-align: center;}
+
+.logo {float: left;}
+
+nav ul {list-style-type: none;padding: 0;}
+
+nav ul li {display: inline-block;margin-right: 20px;}
+
+nav ul li a {text-decoration: none;}
+
+.grid {display: grid; grid-template-columns: repeat(6, 1fr); grid-template-rows: repeat(4, 1fr); gap: 10px;}
+
+.item {background-color: lightgray; border: 1px solid black; padding: 20px; text-align: center;}
+
+.image img {max-width: 100%; height: auto;}
+
+h1 {color:red; text-decoration: underline; text-align: center}
+
+p {text-align: center}
+
+a {color:white}
+
+a:visited{color: red;}
+
+footer {background-color: black;color: white ;text-align: center; padding: 10px 0;width: auto;}

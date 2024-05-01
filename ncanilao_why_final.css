@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {font-family: Arial, sans-serif;margin: 0;padding: 0;}
+
+header {background-color: black;color: white; padding: 10px 0;text-align: center;}
+
+.logo {float: left;}
+
+nav ul {list-style-type: none;padding: 0;}
+
+nav ul li {display: inline-block;margin-right: 20px;}
+
+nav ul li a {text-decoration: none;}
+
+.image {width: 1300px; height: auto; }
+
+.content {text-align: center;}
+
+.textbox {background-color: black; color: white;}
+
+h1 {color: red; text-align: center}
+
+h2 {color: red; text-align: center}
+
+p {font-size: 20px; text-align: left; margin: 30px;}
+
+a {color:white}
+
+a:visited{color: red;}
+
+footer p {text-align: center}
+
+footer {background-color: black;color: white ;text-align: center; padding: 10px 0;width: auto;}
